@@ -1,0 +1,41 @@
+.branch{
+    background-color:rgb(162, 191, 247);
+    color:rgb(40, 101, 215);
+    padding:5px 5px;
+    font-weight: bolder;
+}
+.user_interface{
+
+    color: rgb(56, 56, 192);
+}
+.bold{
+    font-weight: bolder;
+}
+.anothernum{
+    color:rgb(20 69 156 / 80%);
+    font-weight: bold;
+}
+.num{
+    color:rgb(0 63 180 / 90%);
+    font-weight: bold;
+
+}
+.user{
+    color:rgb(0 63 180 / 90%);
+
+}
+#Name{
+    margin: auto 11px;
+}
+#Phylum{
+    margin:auto -1px;
+}
+#Gender{
+    margin: auto 1px;
+}
+.rowgroub{
+    background-color: rgb(194, 191, 191,65%);
+}
+.Submit{
+    background-color: #aaaaaa73;
+}
