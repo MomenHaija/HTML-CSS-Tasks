@@ -38,4 +38,10 @@
 }
 .Submit{
     background-color: #aaaaaa73;
+    margin-left: 56px;
+}
+
+#Name,#Phylum{
+    margin-bottom: 8px;
+    
 }
