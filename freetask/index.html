@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our task</title>
+        <style>
+            body{
+                height: 1800px;
+            }
+            div.relative {
+                position: relative;
+                width: 400px;
+                height: 200px;
+                border: 3px solid lightcoral;   
+            }
+            .absloute{
+                position: absolute;
+                top: 50px;
+                right: 72px;
+                width: 266px;
+                height: 74px;
+                border: 2px dashed green;
+            }
+            .fixed{
+                position: fixed;
+                top: 520px;
+                right: 50px;
+            }
+            .flex {
+              display: flex;
+                flex-direction: row-reverse;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .flex-item-left {
+                background-color: #f1f1f1;
+                padding: 10px;
+                flex: 50%;
+            }
+
+            .flex-item-right {
+                background-color: dodgerblue;
+                padding: 10px;
+                flex: 50%;
+            }
+            div.relative {
+                position: relative;
+                left: 30px;
+                border: 3px solid lightcoral;
+            }
+
+            #flex {
+                width: 200px;
+                height: 200px;
+                border: 1px solid #c3c3c3;
+                display: flex;
+                flex-wrap: wrap;    
+            }
+
+        #flex div {
+            width: 50px;
+            height: 50px;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <h2>position: relative;</h2>
+        <p>An element relative to  normal position:</p>
+        <h2>Position: absolute</h2>
+        <p>With absolute positioning, an element can be placed anywhere on a page. The heading below is placed 100px from the left of the page and 150px from the top of the page.</p>
+        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+        <div class="relative">
+            This div element has position: relative;
+            <p class="absloute">This is a heading with an absolute position</p>
+        </div>
+
+        <h2>position: fixed;</h2>
+        <div class="fixed">
+            This div element has position: fixed;
+        </div>
+        <div class="flex">
+            <div class="flex-item-left">1</div>
+            <div class="flex-item-right">2</div>
+        </div>
+
+        <h1>The justify-content Property</h1>
+
+        <p>The "justify-content: flex-start;" aligns the flex items at the beginning of the container (this is default):</p>
+
+        <div id="main">
+            <div style="background-color:coral;">1</div>
+            <div style="background-color:lightblue;">2</div>
+            <div style="background-color:pink;">3</div> 
+        </div>
+
+        <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the justify-content property.</p>
+        <div id="flex">
+            <div style="background-color:coral;">A</div>
+            <div style="background-color:lightblue;">B</div>
+            <div style="background-color:khaki;">C</div>
+            <div style="background-color:pink;">D</div>
+            <div style="background-color:lightgrey;">E</div>
+            <div style="background-color:lightgreen;">F</div>
+        </div>
+        
+
+          
+
+
+
+
+
+    </body>
+</html>
