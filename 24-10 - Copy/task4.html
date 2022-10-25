@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task4</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(10,auto);
+                grid-template-rows: repeat(7,auto);
+                width: 100%;
+                height: 400px;
+                row-gap: 10px;
+                column-gap: 10px;
+                
+            }
+            .black{
+                background-color: black;
+                grid-column-start: 1;
+                grid-column-end: 11;
+            }
+            .orange{
+                background-color: orange;
+                grid-column-start: 1;
+                grid-column-end: 7;
+                grid-row-start: 2;
+                grid-row-end: 6;
+            }
+            .green{
+                background-color: green;
+                grid-column-start: 7;
+                grid-column-end: 11;
+                grid-row-start: 2;
+                grid-row-end: 6;
+            }
+            .blue{
+                background-color: blue;
+                grid-column-start: 1;
+                grid-column-end: 11;
+                grid-row-start: 6;
+                grid-row-end: 8;
+
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="black"></div>
+            <div class="orange"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+
+        </div>
+    </body>
+</html>
