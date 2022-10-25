@@ -1,0 +1,29 @@
+
+
+.resp{
+    background-color:red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+   
+    
+
+    
+  
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .resp{
+      width: 30%;
+      margin-left: 60px;
+    
+    }
+  }
+  
+  @media screen and (max-device-width:0px) and (max-device-width: 480px) {
+    .resp{
+      display: block;
+      width: 60%;
+     
+    }
+  }
