@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+    grid-template-rows:repeat(3,auto);
+    background-color:white;
+    height: 330px;
+    
+    
+}
+.grid div{
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 768px){
+    .grid{
+        grid-template-columns:auto;
+        background-color:white;
+        height: 150px;
+        width: 300px;
+
+    }
+
+
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns:repeat(3,auto);
+        grid-template-rows:auto auto auto auto auto;
+        height: 330px;
+        width: 100%;
+    }
+
+
+}

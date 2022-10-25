@@ -1,0 +1,41 @@
+.flex{
+    background-color:yellowgreen;
+    display: flex;
+    width: 100%;
+    height:700px;
+   
+}
+.flex div{
+    width: calc(100%/9);
+    height:100%;
+    font-size: 81px;
+    text-align: center;
+    color: white;
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 768px){
+    .flex{
+        display: flex;
+        flex-direction:column;
+    }
+    .flex div{
+        width: 300px;
+        height:100px;
+    }
+
+
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .flex{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .flex div{
+    
+        width: 50%;
+        height: 139px;
+    }
+
+
+}
