@@ -1,0 +1,132 @@
+.main > div{
+    display: inline-block;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+.fa.fa-map-marker:before{
+    color: red;
+}
+.navbar{
+    display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+body{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+}
+.container{
+    background-image: url(../image/delicious-breakfast-on-a-light-table-royalty-free-image-863444442-1543345985.jpg);
+    background-size: cover;
+}
+.header{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    color: white;
+    font-weight: 800;
+    font-size: 78px;
+}
+.header p{
+    color: white;
+    margin-top: 0;
+    font-size: 22px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(278px,1fr));
+    grid-gap: 20px;
+}
+.twinkies,.pot-roast,.salad{
+    background-color: white;
+    position: relative;
+    height: 367px;
+}
+
+.twinkies p,.pot-roast p,.salad p{
+    padding-left:10px;
+}
+.sections{
+    background-color: rgb(176, 120, 36);
+    padding: 10px 20px;
+    padding-bottom: 40px;
+}
+
+.text{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.image img{
+    width: 100%;
+    height: 50%;
+}
+.twinkies h3,.pot-roast h3,.salad h3{
+    position: absolute;
+    top: 41%;
+    background-color: rgba(0 0 0/50%);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer-contain h1{
+    margin: 0px;
+}
+.sections h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.offer-contain{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.coffee .offer-contain i{
+   width: 70px;
+   height: 70px;
+   flex-basis: 50px;
+}
+.part{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 20px;
+}
+.offer-contain div p{
+    margin: 0px;
+}
+.offer h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.offer p:first-of-type{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.offer {
+    background-color: bisque;
+    padding: 20px 10px;
+}
